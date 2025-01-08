@@ -12,7 +12,7 @@ Esta es una calculadora creada con Python. Permite a los usuarios realizar opera
 
 ## Tecnologías Utilizadas
 
-- **Python**: Uso de la biblioteca Tkinter
+- **Python**: Uso de la biblioteca Pyside6
 
 ## Instalación y Uso
 
@@ -22,7 +22,7 @@ Esta es una calculadora creada con Python. Permite a los usuarios realizar opera
 
 ## Capturas de Pantalla
 
-![Captura](https://github.com/Puerto4445/LoveCalc/assets/166276555/b5ce3625-9c9d-4407-92cf-56ffae75a6e0)
+![5656](https://github.com/user-attachments/assets/cc4e8825-32f1-49e7-9076-a182c87dbba9)
 
 
 
