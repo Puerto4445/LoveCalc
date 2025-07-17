@@ -18,26 +18,21 @@ class Calculadora(QMainWindow):
         self.setCentralWidget(central_widget)
         central_widget.setLayout(self.layout)
 
-
-        # Variables internas  
         self.current = ''  
         self.op = ''  
         self.total = 0  
         self.operation_verification = False  
-
-        # Configuración de la ventana principal  
+ 
         self.central_widget = QWidget()  
         self.setCentralWidget(self.central_widget)  
         self.layout = QVBoxLayout(self.central_widget)  
-
-        # Input / Display  
+  
         self.display = QLineEdit()  
         self.display.setAlignment(Qt.AlignRight)  
         self.display.setReadOnly(True)  
         self.display.setStyleSheet("font-size: 23px; background-color: #9333FF; color: white;")  
         self.layout.addWidget(self.display)  
-
-        # Configuración de los botones  
+ 
         self.grid_layout = QGridLayout()  
         self.layout.addLayout(self.grid_layout)  
 
@@ -46,7 +41,7 @@ class Calculadora(QMainWindow):
             "4", "5", "6", "*",  
             "1", "2", "3", "-",  
             "C", "0", ".", "+",  
-            "=", "HI"  # Botón adicional para enviar un mensaje  
+            "=", "HI"   
         ]  
 
         row, col = 0, 0  
