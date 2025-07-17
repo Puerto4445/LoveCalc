@@ -1,4 +1,4 @@
-# LOVEPAD
+# LOVECALC
 
 Esta es una calculadora creada con Python. Permite a los usuarios realizar operaciones basicas 
 
